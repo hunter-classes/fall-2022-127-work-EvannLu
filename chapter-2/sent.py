@@ -1,5 +1,14 @@
-#Activity: 2.5.1 Multiple Choice (test_question2_4_1)
+#assign each word to a var
+a = "All "
+b = "work "
+c = "and "
+d = "no " 
+e = "play "
+f = "makes "
+g = "Jack "
+h = "a "
+i = "dull "
+j = "boy "
 
-True or False: the following is a legal variable name in Python: A_good_grade_is_A+
-
-Answer: False
+#using a print func and add all vars up to get sentence
+print(a + b + c + d + e + f + g + h + i + j)
