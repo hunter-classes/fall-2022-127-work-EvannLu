@@ -19,5 +19,14 @@ for i in [0, 1, 2]:
     squirt.forward(90)
     squirt.right(45)
 
+
+#create third turtle
+rob = turtle.Turtle()
+
+for i in [1,2]:
+  rob.forward(175)
+  rob.right(90)
+  rob.forward(150)
+  rob.right(90)
+
 wn.exitonclick()
-wn.mainloop()
