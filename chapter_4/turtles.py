@@ -35,6 +35,7 @@ for i in [1,2]:
 jose = turtle.Turtle()
 jose.shape("turtle")
 jose.penup()
+jose.speed(1)
 
 for size in range(10):
   jose.forward(50)
