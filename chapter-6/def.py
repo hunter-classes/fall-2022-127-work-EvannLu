@@ -33,7 +33,7 @@ wn.mainloop()
 
 #Third
 
-def square(t,x,y,w,color,sidelen):
+def square2(t,x,y,w,color,sidelen):
 
 #documentation screen is useful for organization. 
 #comment requires you to added new "#" every time you go to a new line
@@ -57,9 +57,8 @@ def square(t,x,y,w,color,sidelen):
     for i in range(4):
         t.forward(50)
         t.right(90)
-wn = turtle.Screen()
 crush = turtle.Turtle()
-square(crush,100,100,5,"blue",4)
+square2(crush,150,150,5,"blue",4)
 squirt = turtle.Turtle()
 squirt.penup()
 squirt.goto(100,100)
