@@ -28,8 +28,6 @@ squirt.right(45)
 
 square(squirt)
 
-wn.exitonclick()
-wn.mainloop()
 
 #Third
 
@@ -57,7 +55,6 @@ def square2(t,x,y,w,color,sidelen):
     for i in range(4):
         t.forward(50)
         t.right(90)
-crush = turtle.Turtle()
 square2(crush,150,150,5,"blue",4)
 squirt = turtle.Turtle()
 squirt.penup()
