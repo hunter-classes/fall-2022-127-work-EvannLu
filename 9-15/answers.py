@@ -36,3 +36,11 @@ def is_rightangled(a, b, c):
 
 print(is_rightangled(5,12,13))
 print(is_rightangled(3,4,6))
+
+
+#Coding Bat
+#String #1
+
+#helloName 
+def hello_name(name):
+  return "Hello " + name +"!"
