@@ -44,3 +44,8 @@ print(is_rightangled(3,4,6))
 #helloName 
 def hello_name(name):
   return "Hello " + name +"!"
+
+  
+#makeOutWord
+def make_out_word(out, word):
+  return out[0:2] + word + out[2:4]
