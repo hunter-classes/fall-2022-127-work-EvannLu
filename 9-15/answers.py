@@ -49,3 +49,8 @@ def hello_name(name):
 #makeOutWord
 def make_out_word(out, word):
   return out[0:2] + word + out[2:4]
+
+
+#firstTwo
+def first_two(str):
+ return str[0:2] 
