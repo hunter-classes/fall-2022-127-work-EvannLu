@@ -54,3 +54,4 @@ def make_out_word(out, word):
 #firstTwo
 def first_two(str):
  return str[0:2] 
+
