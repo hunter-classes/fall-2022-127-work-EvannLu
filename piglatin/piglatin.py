@@ -12,13 +12,19 @@ print(bondify("Evan Lu"))
 
 
 def piglatin(word):
+    length = len(word)
     first = word[0].lower()
-    if(first == "a" or first == "e" or first == "i" or first == "o" or first == "u"):
-        return word + "yay"
-    else:
-        return word[1:] + word[0] + "ay"
+    if(first in 'aeiou'):
+        if(word[length - 1] in '!,.?'):
+            punc = word[length - 1]
+            word = word[0:length - 1] + 'yay' + punc
+            return word
+        else:
+            if word[length - 1] in '!,.?':
+                punc = word[length - 1]
+                nword = word[1:length - 1] + first + "ay" + punc
+                return nword
 
-print(piglatin("Oye"))
-print(piglatin("piglatin"))
+print(piglatin("Aids!"))
 
 
