@@ -29,18 +29,29 @@ def listOdd(orgi):
     return newL
 print(listOdd(orgi))
 
-
-
-
 # Prompt 3: Write a function that takes a string and returns a new string where all the words are capitalized.
 
+low = "Computer Science takes alot of dedication to learn"
+# no strings in list.
+def capAll(l):
+    return l.upper()
 
-
+print(capAll(low))
 
 # Prompt 4: Write a function that takes a string and returns a new string with every word that's longer than 5 character turned into upper case.
 
+def longThan5(low):
+# borrow low string from previous question 
+    newS = []
+    for i in low.split():
+        if len(i) > 5: 
+            newS.append(i.upper())
+        else: 
+            newS.append(i)
+        sent = " ".join(newS)
+    return sent
 
-
+print(longThan5(low))
 
 # Prompt 5: Write a function that takes a list of numbers and returns a new list with each item squared.
 
