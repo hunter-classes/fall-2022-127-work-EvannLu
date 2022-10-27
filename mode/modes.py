@@ -36,14 +36,28 @@ def mode(l):
             freqSoFar = freq (l,i)
     return modeSoFar
 
+import random
 
+def buildRandomList(s,m):#size/max value
+    l = []
+    i = 0
+    while i != s:
+        l.append(random.randint(1,m))
+        i+=1
+    return l
+def testMode(s,max):
+    l = buildRandomList(s,max)
+    m = mode(l)
+    print(m)
+    return m
 
 
 list = [23, 53, 65, 17, 9, 250, 100, 23]
 print(findLargest(list))
 print(freq(list, 23))
 print(mode(list))
-
+print(buildRandomList(10,20))
+print(testMode(20,10))
 
 
 
