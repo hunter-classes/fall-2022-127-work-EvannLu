@@ -1,2 +1,2 @@
 Today {hero} went to the zoo. I saw a {adjective} {noun} jumping up and down in its tree. 
-He {verb} {adverb} through the large tunnel that led to its {adjective} {noun}.
+It {verb} {adverb} through the large tunnel that led to its {adjective} {noun} .
