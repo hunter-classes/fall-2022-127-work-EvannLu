@@ -32,9 +32,7 @@ def madLibs(data):
             nStory += random.choice(adverbs)
 
         else:
-            nStory += nS[i]
-
-        
+            nStory += (nS[i])
 
     return nStory
 
