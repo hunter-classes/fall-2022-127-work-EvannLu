@@ -7,6 +7,8 @@ adjectives = ['attractive', 'dazzling', 'elegant', 'shapely', 'gorgeous', 'apath
 adverbs = ['abnormally', 'absentmindedly', 'accidentally', 'adventurously', 'anxiously', 'arrogantly', 'awkwardly', 'bashfully']
 heroes = random.choice(heroes)
 
-fileref = open('story.txt', 'r')
+fileref = open('project-01-madlibs/story.txt', 'r')
 storyData = fileref.read()
+storyData = storyData.replace('')
 print(storyData)
+print(heroes)
