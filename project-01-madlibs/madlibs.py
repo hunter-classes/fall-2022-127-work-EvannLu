@@ -17,22 +17,22 @@ def madLibs(data):
     for i in range(len(nS)):
 
         if(nS[i] == "{hero}"):
-            nStory += random.choice(heroes)
+            nStory += (' ' + random.choice(heroes))
 
         elif(nS[i] == "{noun}"):
-            nStory += random.choice(nouns)
+            nStory += (' ' + random.choice(nouns))
 
         elif(nS[i] == "{verb}"):
-            nStory += random.choice(verbs)
+            nStory += (' ' + random.choice(verbs))
 
         elif(nS[i] == "{adjective}"):
-            nStory += random.choice(adjectives)
+            nStory += (' ' + random.choice(adjectives))
 
         elif(nS[i] == "{adverb}"):
-            nStory += random.choice(adverbs)
+            nStory += (' ' + random.choice(adverbs))
 
         else:
-            nStory += (nS[i])
+            nStory += (' ' + nS[i])
 
     return nStory
 
