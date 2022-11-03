@@ -21,10 +21,10 @@ def madLibs(data):
 
         elif(nS[i] == "{noun}"):
             nStory += (' ' + random.choice(nouns))
-
+            
         elif(nS[i] == "{verb}"):
             nStory += (' ' + random.choice(verbs))
-
+            
         elif(nS[i] == "{adjective}"):
             nStory += (' ' + random.choice(adjectives))
 
